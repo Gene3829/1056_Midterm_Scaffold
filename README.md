@@ -1,4 +1,4 @@
-# online beer shop, Thick'r Lawn with HTML
+# Online beer shop, Thick'r Lawn with HTML
 
 This is the scaffold of the online beer shop, Thick'r Lawn, and is designed with html. This online shop is not done yet, and it is a preview of the site's layout.
 
