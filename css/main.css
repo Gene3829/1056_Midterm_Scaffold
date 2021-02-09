@@ -8,7 +8,11 @@
 	border: 3px solid #fff;
 }
 
-/* HEADER =============================================================================*/
+
+
+/*  HEADER ============================================================================*/
+
+
 
 #header {
 	display: flex;
@@ -51,7 +55,13 @@
 	font-weight: bold;
 }
 
-/* PROMOTION SECTION ==================================================================*/
+
+
+/*  MAIN CONTENTS =====================================================================*/
+
+
+/*HOMEPAGE ===============================*/
+/*Promotion Section ======================*/
 
 #promoSec {
 	width: 1447px;
@@ -129,7 +139,7 @@
 	color: #000;		
 }
 
-/* INTRODUCTION SECTION ===============================================================*/
+/*Introduction Section ===================*/
 
 .iButton {
 	width: 200px;
@@ -195,7 +205,7 @@
 	font-weight: bold;
 }
 
-/* PRODUCT SECTION ====================================================================*/
+/*Production Section ====================*/
 
 .Pbutton {
 	width: 200px;
@@ -254,7 +264,7 @@
 	border: 3px solid #ef6600;	
 }
 
-#pro2Descript {
+#pro2Descript h3 {
 	font-size: 30px;
 	text-align: center;
 	font-weight: bold;
@@ -267,7 +277,7 @@
 	border: 3px solid #ef6600;	
 }
 
-#pro2Img1 {
+#pro2Img1 h3 {
 	font-size: 30px;
 	text-align: center;
 	font-weight: bold;
@@ -281,12 +291,6 @@
 	margin-left: 22px;	
 }
 
-#proLin2 {
-	font-size: 30px;
-	text-align: center;
-	font-weight: bold;
-}
-
 #pro1Img2 {
 	width: 350px;
 	height: 161px;	
@@ -295,7 +299,7 @@
 	border: 3px solid #ef6600;	
 }
 
-#pro1Img2 {
+#pro1Img2 h3 {
 	font-size: 30px;
 	text-align: center;
 	font-weight: bold;
@@ -309,7 +313,7 @@
 	border: 3px solid #ef6600;	
 }
 
-#pro1Descript {
+#pro1Descript h3 {
 	font-size: 30px;
 	text-align: center;
 	font-weight: bold;
@@ -324,13 +328,188 @@
 	border: 3px solid #ef6600;
 }
 
-#pro2Img2 {
+#pro2Img2 h3 {
 	font-size: 30px;
 	text-align: center;
 	font-weight: bold;
 }
 
-/* FOOTER =============================================================================*/
+
+
+/*CONTACTUS PAGE =========================*/
+
+
+
+#contactUs {
+	margin-top: 160px;
+	margin-bottom: 160px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#form {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-left: auto;
+}
+
+#fName {
+	width: 450px;
+	height: 40px;	
+	line-height: 40px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #000;
+	background-color: #000;
+}
+
+#fName h3 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #ef6600;
+}
+
+#lName {
+	width: 450px;
+	height: 40px;	
+	line-height: 40px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #000;
+	background-color: #000;
+}
+
+#lName h3 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #ef6600;
+}
+
+#email {
+	width: 450px;
+	height: 40px;	
+	line-height: 40px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #000;
+	background-color: #000;
+}
+
+#email h3 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #ef6600;
+}
+
+#pwd {
+	width: 450px;
+	height: 40px;	
+	line-height: 40px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #000;
+	background-color: #000;
+}
+
+#pwd h3 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #ef6600;
+}
+
+#phone {
+	width: 450px;
+	height: 40px;	
+	line-height: 40px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #000;
+	background-color: #000;
+}
+
+#phone h3 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #ef6600;
+}
+
+#comments {
+	width: 450px;
+	height: 295px;	
+	line-height: 295px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #000;
+	background-color: #000;
+}
+
+#comments h3 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #ef6600;
+}
+
+#cButton {
+	width: 200px;
+	height: 72px;	
+	line-height: 72px;
+	margin-top: 22px;
+	margin-left: 22px;
+	border: 3px solid #ef6600;
+	border-radius: 20px;
+	background-color: #ef6600;
+}
+
+#cButton h4 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+}
+
+#cAddress {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-right: auto;
+}
+
+#cAddresses {
+	width: 450px;
+	height: 700px;	
+	line-height: 700px;
+	margin-top: 15px;
+	margin-left: 50px;
+	margin-right: auto;
+	border: 3px solid #ef6600;
+}
+
+#cAddress h3 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+}
+
+
+
+/*  FOOTER ============================================================================*/
+
+
 
 #footer {
 	width: 1447px;
@@ -369,7 +548,7 @@
 	color: #ef6600;
 }
 
-#address {
+#fAddress {
 	width: 300px;
 	height: 150px;	
 	line-height: 150px;
@@ -381,7 +560,7 @@
 	background-color: #000;
 }
 
-#address h3 {
+#fAddress h3 {
 	font-size: 30px;
 	text-align: center;
 	font-weight: bold;
@@ -433,7 +612,11 @@
 	color: #ef6600;
 }
 
-/* BOTTOM BAR =========================================================================*/
+
+
+/*  BOTTOM BAR ========================================================================*/
+
+
 
 #bottomBr {
 	margin: 0 auto;
